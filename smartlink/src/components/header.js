@@ -17,7 +17,7 @@ export default function Header() {
         <Link className="font-bold text-white hover:skew-x-6" to="/">Home</Link>
         <Link className="font-bold text-white hover:skew-x-6" to="/acesso-web-client">Acesso Web Cliente</Link>
         <Link className="font-bold text-white hover:skew-x-6" to="/Serviços">Serviços</Link>        
-        <Link className="font-bold text-white hover:skew-x-6" to="/blog">Portifólios</Link>              
+        <Link className="font-bold text-white hover:skew-x-6" to="/blog">Portfólio</Link>              
       </nav>  
       <nav className="flex gap-4">
         <WhatsappButton />

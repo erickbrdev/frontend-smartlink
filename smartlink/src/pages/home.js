@@ -4,6 +4,7 @@ import Support from "../components/ support"
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import Cards from "../components/cards"
 import Baseboard from "../components/baseboard"
+import Carousel from "../components/carousel"
 
 export default function Home () {
   return (
@@ -49,7 +50,8 @@ export default function Home () {
           title="Acesso ao App e Web"
           content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an"
         />        
-      </div>          
+      </div>        
+      <Carousel />  
       <Baseboard /> 
     </div>
   )

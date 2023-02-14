@@ -630,12 +630,20 @@ video {
   height: 50%;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .w-full {
   width: 100%;
 }
 
 .w-3\/6 {
   width: 50%;
+}
+
+.w-4\/6 {
+  width: 66.666667%;
 }
 
 .list-none {
@@ -692,6 +700,10 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .border-2 {
